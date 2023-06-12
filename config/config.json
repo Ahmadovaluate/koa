@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Aa123456",
+    "database": "koa_api_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "secret" : "EYSD2123"
+  },
+  "test": {
+    "username": "root",
+    "password": "Aa123456",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": "Aa123456",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
